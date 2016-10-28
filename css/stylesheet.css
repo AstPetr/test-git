@@ -7,8 +7,8 @@ body{
 	font-style: normal;
 	font-weight: 300;
 	line-height: 1.8;
-	background-image: url("../img/picture.jpg");
-	background-image: url(""), linear-gradient(#4ABDAC, #F7B733);
+	background-image: url("../img/Free-download-abstract-minimalist-wallpaper-HD.jpg");
+	/*background-image: url(""), linear-gradient(#4ABDAC, #F7B733);*/
 	background-repeat: no-repeat;
     background-color: #100C0A;
 
@@ -25,23 +25,33 @@ a:link {
 	padding: 20px;
 	/*border-bottom: 3px solid #EAE9F1;*/
 }
-a:visited { color: #EAE9F1; }
+a:visited { 
+	color: #100C0A;
+ }
+ .c2 li{
+ 	color: #100C0A;
+	font-weight: 500;
+ }
 .nav a:link { 
 	/*min-width: 130px;*/
 	/*color: #E7E6E7; */
-	color: red;
+	color: #100C0A;
+	/*color: red;*/
 	text-decoration: none;
 	padding: 20px;
 	/*border-bottom: 3px solid #EAE9F1;*/
 }
 .nav a:visited { 
 	/*color: #EAE9F1; */
-	color: red;
+	color: #100C0A;
+	/*color: red;*/
 }
 a:focus { color: #EAE9F1; }
  .nav a:hover { 
 	color: #EAE9F1; 
-	border: 1px solid white;
+	/*color: #100C0A;*/
+	background-color: #100C0A;
+	/*border: 1px solid #100C0A;*/
 }
 a:active { color: red; }
 
@@ -80,14 +90,24 @@ h1 span {
 }
 
 .meniu{
-	background-color: #100C0A;
+	/*background-color: #100C0A;*/
+	background-color: #FDDD49;
+
 	padding: 10px;
 	/*border-bottom: 1px solid #EAE9F1;*/
 	text-align: right;
 	height: 60px;
 	/*position: fixed;*/
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 
 	
+}
+
+.meniu-ft {
+	height: 20px;
+	background-color: #FDDD49;
 }
 
 .nav{
@@ -121,6 +141,9 @@ h1 span {
 	/*margin: 200px auto 0;*/
 	margin: auto;
 	padding: 10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 
@@ -134,7 +157,10 @@ h1 span {
 	width: 18%;
 	margin: 5%;
 	float: right;
-	border: 1px solid #EAE9F1;
+	/*border: 1px solid #EAE9F1;*/
+	background-color: #FDDD49;
+	
+
 }
 
 .c3{
@@ -154,4 +180,16 @@ h1 span {
 }
 
 .c3 img:hover {
+}
+
+.footer {
+	background-color: #100C0A;
+	margin-top: 100px;
+	/*background-color: #EAE9F1;*/
+	height: 100px;
+}
+
+.footer p {
+	float: right;
+	vertical-align: middle;
 }
